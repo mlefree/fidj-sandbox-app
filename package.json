@@ -1,7 +1,7 @@
 {
-  "name": "mle-sandbox",
+  "name": "fidj-sandbox-app",
   "version": "2.1.2",
-  "description": "mat's cloud sandbox",
+  "description": "fidj sandbox  app",
   "homepage": "https://sandbox-app.fidj.ovh",
   "license": "MIT",
   "keywords": [],
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "clean": "rm -frd .gen && mkdir .gen",
-    "create": "cd .gen && yo fidj sandbox-app app2021 sandbox-app mlefree \"Sandbox App\" \"Welcome in FIDJ Sandbox\" \"hello@fidj.ovh<br>\" && npm run build && cd www && echo \"sandbox-app.fidj.ovh\" > CNAME",
+    "create": "cd .gen && yo fidj sandbox-app app2021 sandbox-app mlefree \"Sandbox App\" \"Welcome in FIDJ Sandbox\" \"sandbox@fidj.ovh<br>\" && npm run build && cd www && echo \"sandbox-app.fidj.ovh\" > CNAME",
     "build": "npm run clean && npm run create",
     "start": "cd .gen && npm run start"
   }
