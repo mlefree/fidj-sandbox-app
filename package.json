@@ -7,12 +7,12 @@
   "keywords": [],
   "dependencies": {},
   "devDependencies": {
-    "generator-fidj": "^2.1.4",
-    "yo": "^3.1.1"
+    "generator-fidj": "^3.3.0",
+    "yo": "^4.1.0"
   },
   "scripts": {
     "clean": "rm -frd .gen && mkdir .gen",
-    "create": "cd .gen && yo fidj sandbox-app app2021 sandbox-app mlefree \"Sandbox App\" \"Welcome in FIDJ Sandbox\" \"sandbox@fidj.ovh<br>\" && npm run build && cd www && echo \"sandbox-app.fidj.ovh\" > CNAME",
+    "create": "cd .gen && yo fidj sandbox-app app2021 \"fidj-sandbox-0123fe7ed0000002\" \"prod:false\" fidj \"Fidj Sandbox App\" \"Welcome in FIDJ Sandbox\" \"Welcome<br>In case : sandbox@fidj.ovh<br>\" && npm run build && cd www && echo \"sandbox-app.fidj.ovh\" > CNAME",
     "build": "npm run clean && npm run create",
     "start": "cd .gen && npm run start"
   }

@@ -10,7 +10,6 @@ built with prerequisites :
 npm install -g yo
 npm install -g @ionic/cli
 npm install -g @angular/cli
-npm install -g generator-fidj
 ```
 then `npm run build`, an equivalent to :
 ```bash
