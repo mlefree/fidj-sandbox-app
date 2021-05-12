@@ -1,5 +1,5 @@
 .idea/
 .gen/
 node_modules/
-_gen_bkp
+_gen_*/
 *gitignored*
