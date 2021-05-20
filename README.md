@@ -10,6 +10,7 @@ built with prerequisites :
 npm install -g yo
 npm install -g @ionic/cli
 npm install -g @angular/cli
+npm i
 ```
 then `npm run build`, an equivalent to :
 ```bash

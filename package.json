@@ -1,18 +1,18 @@
 {
   "name": "fidj-sandbox-app",
-  "version": "2.1.2",
+  "version": "3.3.2",
   "description": "fidj sandbox  app",
   "homepage": "https://sandbox-app.fidj.ovh",
   "license": "MIT",
   "keywords": [],
   "dependencies": {},
   "devDependencies": {
-    "generator-fidj": "^3.3.0",
+    "generator-fidj": "^3.3.2",
     "yo": "^4.1.0"
   },
   "scripts": {
     "clean": "rm -frd .gen && mkdir .gen",
-    "create": "cd .gen && yo fidj sandbox-app app2021 \"fidj-sandbox-0123fe7ed0000002\" \"prod:false\" fidj \"Fidj Sandbox App\" \"Welcome in FIDJ Sandbox\" \"Welcome<br>In case : sandbox@fidj.ovh<br>\" && npm run build && cd www && echo \"sandbox-app.fidj.ovh\" > CNAME",
+    "create": "cd .gen && yo fidj sandbox-app app2021 \"fidj-sandbox-0123fe7ed0000002\" \"prod:false\" fidj \"Fidj Test App\" \"Welcome in FIDJ Test App\" \"Welcome<br>In case : sandbox@fidj.ovh<br>\" && npm run build && cd www && echo \"sandbox-app.fidj.ovh\" > CNAME",
     "build": "npm run clean && npm run create",
     "start": "cd .gen && npm run start"
   }
