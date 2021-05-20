@@ -1,13 +1,13 @@
 {
   "name": "fidj-sandbox-app",
-  "version": "3.3.2",
+  "version": "3.3.4",
   "description": "fidj sandbox  app",
   "homepage": "https://sandbox-app.fidj.ovh",
   "license": "MIT",
   "keywords": [],
   "dependencies": {},
   "devDependencies": {
-    "generator-fidj": "^3.3.2",
+    "generator-fidj": "^3.3.4",
     "yo": "^4.1.0"
   },
   "scripts": {
