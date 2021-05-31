@@ -1,5 +1,6 @@
 .idea/
-.gen/
 node_modules/
+.gen/
 _gen_*/
+gen*/
 *gitignored*
